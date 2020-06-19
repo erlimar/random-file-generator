@@ -21,8 +21,8 @@ Usage: rfg [options]
 
 Options:
   -c|--count               Quantidade de arquivos a gerar
-  -n|--min-file-size       Tamanho mínimo dos arquivos gerados (em bytes)
-  -x|--max-file-size       Tamanho máximo dos arquivos gerados (em bytes)
+  -n|--min-file-size       Tamanho mínimo dos arquivos gerados (em bytes. Ou sufixado com b, KB, MB, GB. Ex: 5KB)
+  -x|--max-file-size       Tamanho máximo dos arquivos gerados (em bytes. Ou sufixado com b, KB, MB, GB. Ex: 5KB)
   -o|--output-path         Caminho onde os arquivos aleatórios serão gravados. O padrão é o diretório local.
   -t|--file-name-template  Template do nome do arquivo. Use '{n}' para o número do arquivo. O padrão é 'file-{n}.bin'.
   -?|-h|--help             Show help information
