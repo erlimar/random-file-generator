@@ -361,3 +361,4 @@ FodyWeavers.xsd
 
 # Project files
 dist/
+debug-data/

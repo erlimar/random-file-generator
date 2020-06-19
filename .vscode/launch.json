@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "rfg.exe",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/RandomFileGenerator/bin/Debug/netcoreapp3.1/rfg.dll",
+            "args": [
+                "--count", "10",
+                "--min-file-size", "256b",
+                "--max-file-size", "5KB",
+                "--output-path", "./debug-data",
+                "--file-name-template", "develop-file-{n}.debug"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+        }
+    ]
+}
