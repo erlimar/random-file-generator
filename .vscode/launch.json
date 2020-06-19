@@ -9,10 +9,10 @@
             "program": "${workspaceFolder}/src/RandomFileGenerator/bin/Debug/netcoreapp3.1/rfg.dll",
             "args": [
                 "--count", "10",
-                "--min-file-size", "256b",
-                "--max-file-size", "5KB",
+                "--min-file-size", "5KB",
+                "--max-file-size", "2MB",
                 "--output-path", "./debug-data",
-                "--file-name-template", "develop-file-{n}.debug"
+                "--file-name-template", "arquivo-{n}.bin"
             ],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
